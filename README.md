@@ -25,27 +25,33 @@
 
 Methods Urls Actions:
 
-// Create a new Tutorial
-router.post('/api/v1/tutorials/create', tutorials.create);  
+// Create a new Tutorial. 
 
-// // Retrieve all Tutorials
-router.get('/api/v1/tutorials/all', tutorials.findAll);  
+'/api/v1/tutorials/create'. 
 
-// // Retrieve all published Tutorials
-router.get('/api/v1/tutorials/all/puplished', tutorials.findAllPublished);  
+// Retrieve all Tutorials. 
 
-// // Retrieve a single Tutorial with id
-router.get('/api/v1/tutorials/find/:id', tutorials.findOne);  
+'/api/v1/tutorials/all'. 
 
-// // Update a Tutorial with id
-router.put('/api/v1/tutorials/update/:id', tutorials.update);  
+// Retrieve all published Tutorials. 
 
-// // Delete a Tutorial with id
-router.delete('/api/v1/tutorials/delete/:id', tutorials.delete);  
+'/api/v1/tutorials/all/puplished'. 
 
-// // Delete all Tutorials
-router.delete('/api/v1/tutorials/delete/all', tutorials.deleteAll);  
+// Retrieve a single Tutorial with id. 
 
+'/api/v1/tutorials/find/:id'. 
+
+// Update a Tutorial with id. 
+
+'/api/v1/tutorials/update/:id'. 
+
+// Delete a Tutorial with id. 
+
+'/api/v1/tutorials/delete/:id'. 
+
+// Delete all Tutorials. 
+
+// Update a Tutorial with id. 
 
 ### Plan
 
