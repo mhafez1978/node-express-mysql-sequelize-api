@@ -53,8 +53,7 @@ GET api/v1/tutorials?title=[kw] find all Tutorials which title contains 'kw'.
 - Then we define routes for handling all CRUD operations (including custom finder).
 - To enable CORS for all requests we will use:
   **_app.use(cors())_**.
-- IF need to allow CORS per single route we can remove **_app.use(CORS())_** and instead we will pass CORS() as middleware in our route call, exanple below:  
-
+- IF need to allow CORS per single route we can remove **_app.use(CORS())_** and instead we will pass CORS() as middleware in our route call, exanple below:
 
 <code>
  
@@ -65,3 +64,15 @@ app.get('/products/:id', cors(), function (req, res, next) {
 }) 
  
 </code>
+
+After initializing Sequelize, we don’t need to write CRUD functions, Sequelize supports all of them:
+
+- create a new Tutorial: create(object)
+- find a Tutorial by id: findByPk(id)
+- get all Tutorials: findAll()
+- update a Tutorial by id: update(data, where: { id: id })
+- remove a Tutorial: destroy(where: { id: id })
+- remove all Tutorials: destroy(where: {})
+- find all Tutorials by title: findAll({ where: { title: ... } })
+
+These functions will be used in our Controller.
