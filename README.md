@@ -51,3 +51,5 @@ Methods	Urls	Actions:
 - We create Tutorial model with Sequelize,
 - We write the controller.
 - Then we define routes for handling all CRUD operations (including custom finder).
+- To enable CORS for all requests we will use:
+***app.use(cors())***
