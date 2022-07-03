@@ -11,6 +11,9 @@
 - Controller will handle requests 
 - Router will handlle routing initial request, controller will handle response (view)
 - Considering adding jsx as views engine to allow html straight use in js
+- We will need to use CORS to : CORS stands for Cross-Origin Resource Sharing . It allows us to relax the security applied to an API. This is done by bypassing the Access-Control-Allow-Origin headers, which specify which origins can access the API.  
+- CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.  
+
 
 ### Objective :
 - Build a backend server using node/express that supports routing, controller, models, views
