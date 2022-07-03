@@ -1,0 +1,37 @@
+{
+  "name": "express-mysql-sequelize-api",
+  "version": "1.0.0",
+  "description": "##### intro: Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhafez1978/node-express-mysql-sequelize-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "MySQL",
+    "Sequelize-ORM",
+    "Rest API"
+  ],
+  "author": "Mohamed Hafez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhafez1978/node-express-mysql-sequelize-api/issues"
+  },
+  "homepage": "https://github.com/mhafez1978/node-express-mysql-sequelize-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
