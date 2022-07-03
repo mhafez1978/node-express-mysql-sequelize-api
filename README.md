@@ -49,9 +49,6 @@ Methods Urls Actions:
 
 '/api/v1/tutorials/delete/:id'. 
 
-// Delete all Tutorials. 
-
-// Update a Tutorial with id. 
 
 ### Plan
 
