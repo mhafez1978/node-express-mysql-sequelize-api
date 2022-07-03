@@ -2,8 +2,6 @@
 
 ##### intro: Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
 
-<span style="color: red;">text</span>
-
 ### Subjective:
 
 - Node Express to build server that can handle routing
