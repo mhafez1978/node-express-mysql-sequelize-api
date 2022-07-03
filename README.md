@@ -54,10 +54,14 @@ Methods	Urls	Actions:
 - To enable CORS for all requests we will use:
 ***app.use(cors())***.   
 - IF need to allow CORS per single route we can remove ***app.use(CORS())*** and instead we will pass CORS() as middleware in our route call, exanple below:  
--   
+   
 <code>
-app.get('/products/:id', cors(), function (req, res, next) {
-  res.json({msg: 'This is CORS-enabled for a Single Route'})
-})
+ 
+app.get('/products/:id', cors(), function (req, res, next) { 
+ 
+  res.json({msg: 'This is CORS-enabled for a Single Route'}) 
+ 
+}) 
+ 
 <code>
 
