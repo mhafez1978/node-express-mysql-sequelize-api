@@ -1,7 +1,7 @@
 # Node.js Express MySQL Sequelize ORM API Backend Server
 
 ##### intro: Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
-resistor bridge (analogue) input
+
 
 ### Subjective:
 
