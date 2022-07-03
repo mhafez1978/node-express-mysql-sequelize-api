@@ -1,4 +1,5 @@
-# node-express-mysql-sequelize-api
+# Node.js Express MySQL Sequelize ORM API Backend Server
+
 Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
 
 #### Objective :
