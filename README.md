@@ -25,21 +25,27 @@
 
 Methods Urls Actions:
 
-GET api/v1/tutorials get all Tutorials.
+// Create a new Tutorial
+router.post('/api/v1/tutorials/create', tutorials.create);  
 
-GET api/v1/tutorials/:id get Tutorial by id.
+// // Retrieve all Tutorials
+router.get('/api/v1/tutorials/all', tutorials.findAll);  
 
-POST api/v1/tutorials add new Tutorial.
+// // Retrieve all published Tutorials
+router.get('/api/v1/tutorials/all/puplished', tutorials.findAllPublished);  
 
-PUT api/v1/tutorials/:id update Tutorial by id.
+// // Retrieve a single Tutorial with id
+router.get('/api/v1/tutorials/find/:id', tutorials.findOne);  
 
-DELETE api/v1/tutorials/:id remove Tutorial by id.
+// // Update a Tutorial with id
+router.put('/api/v1/tutorials/update/:id', tutorials.update);  
 
-DELETE api/v1/tutorials remove all Tutorials.
+// // Delete a Tutorial with id
+router.delete('/api/v1/tutorials/delete/:id', tutorials.delete);  
 
-GET api/v1/tutorials/published find all published Tutorials.
+// // Delete all Tutorials
+router.delete('/api/v1/tutorials/delete/all', tutorials.deleteAll);  
 
-GET api/v1/tutorials?title=[kw] find all Tutorials which title contains 'kw'.
 
 ### Plan
 
