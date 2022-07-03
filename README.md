@@ -16,8 +16,10 @@ Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
 - We write the controller.
 - Then we define routes for handling all CRUD operations (including custom finder).
 
-#### CRUD API's 
-Methods	Urls	Actions:
+** CRUD API's **
+
+Methods	Urls	Actions:  
+
  GET	api/tutorials	get all Tutorials.  
  
  GET	api/tutorials/:id	get Tutorial by id.  
