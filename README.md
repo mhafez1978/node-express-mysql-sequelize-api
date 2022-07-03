@@ -2,6 +2,16 @@
 
 ##### intro: Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
 
+### Subjective:
+
+- Node Express to build server that can handle routing
+- MySQL is Database to store data
+- Sequelize will manipulate MySQL data
+- Models will model data , sequelize will use model to create data table definition in db
+- Controller will handle requests 
+- Router will handlle routing initial request, controller will handle response (view)
+- Considering adding jsx as views engine to allow html straight use in js
+
 ### Objective :
 - Build a backend server using node/express that supports routing, controller, models, views
 - We will serve Restful CRUD API using Express, Sequelize with MySQL database.
