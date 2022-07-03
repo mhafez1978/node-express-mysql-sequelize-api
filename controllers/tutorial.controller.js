@@ -1,11 +1,6 @@
 // CRUD functions in this Tutorial Controller:
-// create
-// findAll
-// findOne
-// update
-// delete
-// deleteAll
-// findAllPublished
+// create// findAll// findOne// update// delete// deleteAll// findAllPublished
+
 const db = require('../models');
 const Tutorial = db.tutorials;
 const Op = db.Sequelize.Op;
