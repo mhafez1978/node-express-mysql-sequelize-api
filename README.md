@@ -1,21 +1,12 @@
 # Node.js Express MySQL Sequelize ORM API Backend Server
 
-Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
+##### intro: Node.js Rest APIs example with Express, Sequelize ORM & MySQL database.
 
-#### Objective :
+### Objective :
 - Build a backend server using node/express that supports routing, controller, models, views
 - We will serve Restful CRUD API using Express, Sequelize with MySQL database.
 
-#### Assessment :
-
-> General overview:
-
-- We will create Rest API that can create, retrieve, update, delete and find Tutorials by title.
-- We will start with an Express web server. 
-- Next, we add configuration for MySQL database, 
-- We create Tutorial model with Sequelize,
-- We write the controller.
-- Then we define routes for handling all CRUD operations (including custom finder).
+### Assessment :
 
 ** CRUD API's **
 
@@ -37,4 +28,13 @@ Methods	Urls	Actions:
  
  GET	api/tutorials?title=[kw]	find all Tutorials which title contains 'kw'.  
  
+### Plan
 
+> General overview:
+
+- We will create Rest API that can create, retrieve, update, delete and find Tutorials by title.
+- We will start with an Express web server. 
+- Next, we add configuration for MySQL database, 
+- We create Tutorial model with Sequelize,
+- We write the controller.
+- Then we define routes for handling all CRUD operations (including custom finder).
